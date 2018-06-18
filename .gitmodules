@@ -1,0 +1,3 @@
+[submodule "SBJson"]
+	path = SBJson
+	url = https://github.com/lizho/SBJson.git
