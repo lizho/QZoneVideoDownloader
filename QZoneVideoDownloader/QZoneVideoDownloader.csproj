@@ -100,5 +100,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SBJson\SimpleBriefJson\SimpleBriefJson.csproj">
+      <Project>{1a7ca23c-4fce-409d-9de9-016257ab9aae}</Project>
+      <Name>SimpleBriefJson</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
